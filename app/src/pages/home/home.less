@@ -1,0 +1,51 @@
+.home_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.host_item {
+  position: relative;
+  .host_check {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.page_header{
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: calc(100% - 30px);
+}
+
+.host_name_wrapper{
+  position: relative;
+  width: calc(50% - 120px);
+  .host_name_label{
+    display: inline-block;
+    max-width: 80px;
+    padding-right: 5px;
+    text-align: right;
+  }
+}
+
+.host_name {
+  vertical-align: bottom;
+  display: inline-block;
+  overflow: hidden;
+  font-weight: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 5px;
+  width: calc(100% - 90px);
+}
+
+.result_detail {
+  display: inline-block;
+  width: 30px;
+}

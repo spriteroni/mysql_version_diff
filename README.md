@@ -1,2 +1,1 @@
-# mysql_version_diff
-mysql 版本兼容性检查
+PolarDB MySQL/RDS 跨版本兼容性检测工具
